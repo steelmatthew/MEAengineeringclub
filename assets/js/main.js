@@ -4,6 +4,23 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
+function showSecret2(){
+	window.location = "Secpg02.html";
+}
+
+var num=0;
+function showSecret(total=0){
+	if(num++===total){
+		window.location = "Spg1.html";
+	}
+}
+
+function showText(e){
+	const ref = "#"+e.parentNode.id+" .disappearingText";
+	const disp = document.querySelector(ref).style.display;
+	document.querySelector(ref).style.display = disp=="block"?"none":"block";
+}
+
 (function($) {
 
 	var	$window = $(window),
