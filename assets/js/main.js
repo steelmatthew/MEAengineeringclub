@@ -3,8 +3,11 @@
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
+// const email = localStorage.getItem("userEmail");
 
-window.location="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstleyVEVO"
+// if(!email){
+// 	window.location = "signin.html";
+// }
 
 function showSecret2(){
 	window.location = "Secpg02.html";
@@ -28,7 +31,7 @@ function showText(e){
 	var	$window = $(window),
 		$body = $('body');
 
-	// Breakpoints.
+	// Breakpeoints.
 		breakpoints({
 			wide:      [ '1281px',  '1680px' ],
 			normal:    [ '981px',   '1280px' ],
